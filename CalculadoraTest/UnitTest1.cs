@@ -9,6 +9,7 @@ namespace CalculadoraTest
             [DataRow(4, 0, 4)]
             [DataRow(0, 0, 0)]
             [DataRow(-1, -6, -7)]
+            [DataRow(5, 18, 24)]
         [TestMethod]
             public void Suma_retornaValor(double a, double b, double esperado)
             {
