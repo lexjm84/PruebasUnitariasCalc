@@ -26,7 +26,8 @@ namespace CalculadoraTest
             [DataRow(4, 4, 0)]
             [DataRow(4, 0, 4)]
             [DataRow(1, 4, -3)]
-            [TestMethod]
+             [DataRow(2, 4, -2)]
+        [TestMethod]
             public void resta_retornaValor(double a, double b, double esperado)
             {
                 /* //Arrange
