@@ -10,7 +10,8 @@ namespace CalculadoraTest
             [DataRow(0, 0, 0)]
             [DataRow(-1, -6, -7)]
             [DataRow(5, 18, 23)]
-        [TestMethod]
+
+            [TestMethod]
             public void Suma_retornaValor(double a, double b, double esperado)
             {
                 /* //Arrange
@@ -27,7 +28,7 @@ namespace CalculadoraTest
             [DataRow(4, 0, 4)]
             [DataRow(1, 4, -3)]
              [DataRow(2, 4, -2)]
-        [TestMethod]
+           [TestMethod]
             public void resta_retornaValor(double a, double b, double esperado)
             {
                 /* //Arrange
