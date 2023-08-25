@@ -70,8 +70,8 @@ namespace CalculadoraTest
         [TestMethod]
             public void mult_retornaValor(double a, double b, double esperado)
             {
-                /* //Arrange
-              DataRow* /
+                /* //gArrange
+              DataRow*/
 
 
                 //Act
