@@ -65,7 +65,8 @@ namespace CalculadoraTest
             [DataRow(4, 4, 16)]
             [DataRow(4, 0, 0)]
             [DataRow(1, 1, 1)]
-            [TestMethod]
+           [DataRow(2, 2, 4)]
+        [TestMethod]
             public void mult_retornaValor(double a, double b, double esperado)
             {
                 /* //Arrange
